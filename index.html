@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Aman Kumar - .NET Full Stack Developer portfolio showcasing projects, services, and contact details."
+    />
+    <title>Aman Kumar | .NET Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header with responsive navigation -->
+    <header class="header" id="top">
+      <nav class="nav container" aria-label="Main navigation">
+        <a href="#top" class="brand">Aman Kumar</a>
+
+        <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero section with primary CTAs -->
+      <section class="hero section">
+        <div class="container hero-content">
+          <p class="eyebrow">Available for Freelance Projects</p>
+          <h1>Aman Kumar</h1>
+          <h2>.NET Full Stack Developer</h2>
+          <p class="hero-intro">
+            I build scalable web applications and APIs using ASP.NET Core, Angular, and Azure cloud services, helping businesses ship fast and reliable digital products.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            <a href="https://example.com/resume.pdf" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">Download Resume</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- About section -->
+      <section id="about" class="section">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-text">
+            I am a .NET Full Stack Developer with 4 years of experience delivering enterprise-grade solutions. My core strengths include building secure ASP.NET Core APIs, designing responsive Angular frontends, and deploying cloud-native applications on Azure. I focus on clean architecture, performance optimization, and maintainable code that supports long-term business growth.
+          </p>
+        </div>
+      </section>
+
+      <!-- Skills section with grouped expertise -->
+      <section id="skills" class="section section-alt">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills-grid">
+            <article class="skill-group">
+              <h3>Backend</h3>
+              <ul>
+                <li>ASP.NET Core</li>
+                <li>.NET Web API</li>
+                <li>C#</li>
+                <li>Entity Framework Core</li>
+                <li>REST APIs</li>
+              </ul>
+            </article>
+            <article class="skill-group">
+              <h3>Frontend</h3>
+              <ul>
+                <li>Angular</li>
+                <li>TypeScript</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Responsive UI</li>
+              </ul>
+            </article>
+            <article class="skill-group">
+              <h3>Cloud</h3>
+              <ul>
+                <li>Azure App Service</li>
+                <li>Azure Functions</li>
+                <li>Azure DevOps</li>
+                <li>CI/CD Pipelines</li>
+              </ul>
+            </article>
+            <article class="skill-group">
+              <h3>Database</h3>
+              <ul>
+                <li>SQL Server</li>
+                <li>Entity Framework Core</li>
+                <li>Database Design</li>
+              </ul>
+            </article>
+            <article class="skill-group">
+              <h3>Tools</h3>
+              <ul>
+                <li>Git</li>
+                <li>Azure DevOps</li>
+                <li>Postman</li>
+                <li>Visual Studio</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects section -->
+      <section id="projects" class="section">
+        <div class="container">
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="projects-grid">
+            <article class="card">
+              <h3>Enterprise Dashboard</h3>
+              <p>
+                Built a data-rich admin dashboard using Angular, .NET Core API, and SQL Server with role-based access and real-time reporting workflows.
+              </p>
+            </article>
+            <article class="card">
+              <h3>E-commerce REST API</h3>
+              <p>
+                Developed a secure ASP.NET Core REST API with JWT authentication and Entity Framework Core, supporting scalable product and order management.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Azure Cloud Deployment</h3>
+              <p>
+                Implemented cloud deployment architecture using Azure App Service and Azure DevOps CI/CD to automate releases and improve uptime.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Freelance services section -->
+      <section id="services" class="section section-alt">
+        <div class="container">
+          <h2 class="section-title">Freelance Services</h2>
+          <ul class="services-list">
+            <li>Full-stack web application development</li>
+            <li>ASP.NET Core API development</li>
+            <li>Angular dashboard development</li>
+            <li>Azure deployment and CI/CD setup</li>
+            <li>Bug fixing and maintenance</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section id="contact" class="section">
+        <div class="container">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-text">Let’s build something impactful together.</p>
+          <div class="contact-links">
+            <a href="mailto:aman.kumar@example.com">aman.kumar@example.com</a>
+            <a href="https://www.linkedin.com/in/aman-kumar" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/aman-kumar" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Aman Kumar. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
