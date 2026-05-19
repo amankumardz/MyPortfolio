@@ -1,58 +1,40 @@
 # Aman Kumar Portfolio Website
 
-A modern, responsive personal portfolio website for **Aman Kumar** (.NET Full Stack Developer) built using plain **HTML, CSS, and JavaScript**. It is optimized for freelance client presentation and ready to deploy on **GitHub Pages**.
+Premium, modern, and fully responsive portfolio website for **Aman Kumar** (**.NET Full Stack Developer**) built using **HTML, CSS, and JavaScript** only.
 
-## Project Description
+## Highlights
 
-This portfolio includes:
-- Hero section with professional intro and call-to-action buttons
-- About section covering 4 years of .NET, Azure, and Angular experience
-- Grouped technical skills section
-- Featured project cards
-- Freelance services offered
-- Contact section with social/professional links
-- Responsive layout with mobile navigation and smooth scrolling
-- Modern dark/light styling using CSS variables
+- Modern dark gradient UI with colorful neon accents (blue, purple, cyan, pink)
+- Glassmorphism cards for About, Skills, Projects, Services, and Contact
+- Sticky navbar with active section highlighting
+- Responsive mobile navigation with hamburger menu
+- Hero section with badges, CTAs, and animated profile panel
+- Animated background gradient blobs and section reveal effects
+- Animated project cards with gradient borders and hover lift
+- Scroll-to-top button and smooth scrolling
+- Dark/light mode toggle with localStorage persistence
 
-## Folder Structure
+## Tech Stack
 
-.
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+- HTML5
+- CSS3 (variables + animations + responsive media queries)
+- Vanilla JavaScript (DOM + Intersection Observer)
 
-## How to Run Locally
+## Contact
 
-1. Download or clone this repository.
-2. Open the project folder.
-3. Double-click `index.html` to open in your browser.
+- **Email:** amankumardz0@gmail.com
+- **Phone:** 9079180508
+- **LinkedIn:** https://www.linkedin.com/in/amankumardz/
+- **GitHub:** https://github.com/amankumardz
 
-Optional (recommended):
-- Use a local server extension (like VS Code Live Server) for smoother development.
+## Run Locally
 
-## How to Deploy on GitHub Pages
+1. Clone/download the repository.
+2. Open `index.html` in your browser.
 
-1. Push this project to a GitHub repository.
-2. Go to **Repository Settings** → **Pages**.
-3. Under **Build and deployment**, select:
-   - **Source**: `Deploy from a branch`
-   - **Branch**: `main` (or your default branch)
-   - **Folder**: `/ (root)`
-4. Save settings and wait for deployment.
-5. Your site will be live at:
-   - `https://<your-github-username>.github.io/<repository-name>/`
+## GitHub Pages Deployment
 
-## Replace Placeholder Links
-
-Update the following placeholders in `index.html`:
-- **Resume link** (`Download Resume` button)
-- **Email** in Contact section
-- **LinkedIn profile URL**
-- **GitHub profile URL**
-
-Search for these sample placeholders and replace:
-- `https://example.com/resume.pdf`
-- `aman.kumar@example.com`
-- `https://www.linkedin.com/in/aman-kumar`
-- `https://github.com/aman-kumar`
+1. Push this repository to GitHub.
+2. Go to **Settings → Pages**.
+3. Set source to `Deploy from a branch`, branch `main`, folder `/ (root)`.
+4. Save and wait for deployment.
