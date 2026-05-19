@@ -3,17 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aman Kumar | .NET Full Stack Developer</title>
     <meta
       name="description"
-      content="Aman Kumar - .NET Full Stack Developer portfolio showcasing projects, skills, services, and contact details."
+      content="Aman Kumar - .NET Full Stack Developer with 4+ years experience building scalable web apps using ASP.NET Core, Angular, Azure, and SQL Server."
     />
-    <title>Aman Kumar | .NET Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWix+LLJAJ9/2PKZ5QiAj6Ta86w+fsb2TkR4j8U8gF5KQ6X4lLQ1L0Y8Y8q8+5dD8iQ6+Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -22,117 +21,155 @@
       <span class="blob blob-1"></span>
       <span class="blob blob-2"></span>
       <span class="blob blob-3"></span>
+      <span class="dot-grid"></span>
     </div>
-    <div id="particles" aria-hidden="true"></div>
 
-    <header class="header" id="top">
-      <nav class="nav container" aria-label="Main navigation">
-        <a href="#top" class="brand">Aman Kumar</a>
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark and light mode">
-          <i class="fa-solid fa-moon"></i>
-        </button>
-        <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-menu">
+    <header class="header" id="home">
+      <nav class="navbar container">
+        <a href="#home" class="brand">
+          <span class="brand-logo">AK</span>
+          <span class="brand-text">
+            <strong>Aman Kumar</strong>
+            <small>.NET Full Stack Developer</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
           <span></span><span></span><span></span>
         </button>
-        <ul class="nav-links" id="main-menu">
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact" class="btn btn-nav">Hire Me</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section class="hero section reveal" id="hero">
-        <div class="container hero-layout">
-          <div class="hero-left">
-            <p class="eyebrow">Modern Full-Stack Solutions for Growing Businesses</p>
-            <h1>Aman Kumar</h1>
-            <h2>.NET Full Stack Developer</h2>
-            <p class="hero-intro">
-              I design and build secure, scalable, and high-performance web applications using ASP.NET Core, Angular, SQL Server, and Azure. I help startups and enterprises ship polished digital products faster.
-            </p>
-            <div class="hero-badges">
-              <span><i class="fa-solid fa-circle-check"></i> Available for Freelance</span>
-              <span><i class="fa-solid fa-briefcase"></i> 4+ Years Experience</span>
-            </div>
-            <div class="hero-actions">
-              <a href="#projects" class="btn btn-primary">View Projects</a>
-              <a href="https://github.com/amankumardz" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Download Resume</a>
-              <a href="#contact" class="btn btn-ghost">Hire Me</a>
-            </div>
+      <section class="hero container section" data-reveal>
+        <div class="hero-content">
+          <p class="badge">Available for Freelance</p>
+          <h1>Hi, I’m <span>Aman Kumar</span></h1>
+          <h2>.NET Full Stack Developer</h2>
+          <p>
+            I build scalable web applications using ASP.NET Core, Angular, Azure, and SQL Server,
+            with a strong focus on clean architecture, performance, and business impact.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Download Resume</a>
           </div>
-          <div class="hero-right">
-            <div class="profile-frame">
-              <div class="profile-avatar" aria-label="Aman Kumar profile placeholder">AK</div>
-            </div>
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/amankumardz/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/amankumardz" target="_blank" rel="noopener">GitHub</a>
+            <a href="mailto:amankumardz0@gmail.com">Email</a>
+            <a href="tel:+919079180508">Phone</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-reveal>
+          <div class="ring"></div>
+          <img src="images/profile.jpg" alt="Aman Kumar" class="profile-img" />
+          <span class="tech-badge b1">.NET</span>
+          <span class="tech-badge b2">Angular</span>
+          <span class="tech-badge b3">Azure</span>
+          <span class="tech-badge b4">SQL Server</span>
+
+          <div class="stats-card glass-card">
+            <p><strong>4+</strong> Years Experience</p>
+            <p><strong>20+</strong> Projects Completed</p>
+            <p><strong>15+</strong> Happy Clients</p>
+            <p><strong>100%</strong> Client Satisfaction</p>
           </div>
         </div>
       </section>
 
-      <section id="about" class="section reveal">
-        <div class="container glass-card">
-          <h2 class="section-title">About Me</h2>
-          <p class="section-text">
-            I am a results-driven .NET Full Stack Developer focused on building enterprise-grade software with clean architecture and seamless user experiences. From secure APIs and robust database design to modern responsive frontends and Azure cloud deployment, I deliver production-ready solutions aligned with business goals.
+      <section class="section container" id="about" data-reveal>
+        <h3 class="section-title">About Me</h3>
+        <div class="glass-card about-card">
+          <p>
+            I am Aman Kumar, a .NET Full Stack Developer with 4+ years of experience delivering
+            robust enterprise solutions. I specialize in ASP.NET Core APIs, Angular frontends,
+            SQL Server data layers, and Azure cloud deployments.
           </p>
         </div>
       </section>
 
-      <section id="skills" class="section reveal">
-        <div class="container">
-          <h2 class="section-title">Skills</h2>
-          <div class="skills-grid">
-            <article class="skill-group glass-card"><h3>Backend</h3><ul><li>ASP.NET Core</li><li>Web API</li><li>C#</li><li>Entity Framework Core</li><li>JWT</li></ul></article>
-            <article class="skill-group glass-card"><h3>Frontend</h3><ul><li>Angular</li><li>TypeScript</li><li>HTML5</li><li>CSS3</li><li>JavaScript</li></ul></article>
-            <article class="skill-group glass-card"><h3>Cloud &amp; DevOps</h3><ul><li>Azure</li><li>Azure App Service</li><li>Azure Functions</li><li>Azure DevOps</li><li>CI/CD</li></ul></article>
-            <article class="skill-group glass-card"><h3>Database &amp; Tools</h3><ul><li>SQL Server</li><li>Git</li><li>GitHub</li><li>Postman</li><li>Swagger</li></ul></article>
-          </div>
+      <section class="section container" id="skills" data-reveal>
+        <h3 class="section-title">Skills</h3>
+        <div class="grid four-col">
+          <article class="glass-card">
+            <h4>Backend</h4>
+            <ul><li>ASP.NET Core</li><li>Web API</li><li>C#</li><li>Entity Framework Core</li><li>JWT Authentication</li></ul>
+          </article>
+          <article class="glass-card">
+            <h4>Frontend</h4>
+            <ul><li>Angular</li><li>TypeScript</li><li>HTML5</li><li>CSS3</li><li>JavaScript</li></ul>
+          </article>
+          <article class="glass-card">
+            <h4>Cloud & DevOps</h4>
+            <ul><li>Microsoft Azure</li><li>Azure App Service</li><li>Azure Functions</li><li>Azure DevOps</li><li>CI/CD Pipelines</li></ul>
+          </article>
+          <article class="glass-card">
+            <h4>Database & Tools</h4>
+            <ul><li>SQL Server</li><li>Git & GitHub</li><li>Postman</li><li>Swagger</li><li>Docker</li></ul>
+          </article>
         </div>
       </section>
 
-      <section id="projects" class="section reveal">
-        <div class="container">
-          <h2 class="section-title">Featured Projects</h2>
-          <div class="projects-grid">
-            <article class="project-card glass-card"><h3><i class="fa-solid fa-chart-line"></i> Enterprise Dashboard</h3><p>Role-based analytics dashboard using Angular, ASP.NET Core API, and SQL Server for real-time decision-making.</p><div class="project-actions"><a href="#" class="btn btn-secondary">Live Demo</a><a href="https://github.com/amankumardz" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">GitHub Code</a></div></article>
-            <article class="project-card glass-card"><h3><i class="fa-solid fa-cart-shopping"></i> E-commerce Web API</h3><p>Secure and scalable REST API with JWT auth, EF Core, and optimized order workflows for high traffic scenarios.</p><div class="project-actions"><a href="#" class="btn btn-secondary">Live Demo</a><a href="https://github.com/amankumardz" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">GitHub Code</a></div></article>
-            <article class="project-card glass-card"><h3><i class="fa-solid fa-cloud"></i> Azure CI/CD Pipeline</h3><p>Automated cloud deployment pipeline with Azure App Service and Azure DevOps for faster, reliable releases.</p><div class="project-actions"><a href="#" class="btn btn-secondary">Live Demo</a><a href="https://github.com/amankumardz" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">GitHub Code</a></div></article>
-          </div>
+      <section class="section container" id="projects" data-reveal>
+        <h3 class="section-title">Featured Projects</h3>
+        <div class="grid three-col">
+          <article class="glass-card project-card">
+            <div class="icon">📊</div>
+            <h4>Enterprise Dashboard</h4>
+            <p>Angular + .NET Core + SQL Server admin dashboard with analytics, charts, and user management.</p>
+            <div class="project-actions"><a href="#" class="btn btn-small">Live Demo</a><a href="#" class="btn btn-small btn-secondary">GitHub</a></div>
+          </article>
+          <article class="glass-card project-card">
+            <div class="icon">🧩</div>
+            <h4>E-Commerce API</h4>
+            <p>ASP.NET Core Web API RESTful API with JWT auth, product, order, and payment integration.</p>
+            <div class="project-actions"><a href="#" class="btn btn-small">Live Demo</a><a href="#" class="btn btn-small btn-secondary">GitHub</a></div>
+          </article>
+          <article class="glass-card project-card">
+            <div class="icon">☁️</div>
+            <h4>Azure Deployment</h4>
+            <p>Azure App Service + DevOps CI/CD pipeline, automated deployment and monitoring.</p>
+            <div class="project-actions"><a href="#" class="btn btn-small">Live Demo</a><a href="#" class="btn btn-small btn-secondary">GitHub</a></div>
+          </article>
         </div>
       </section>
 
-      <section id="services" class="section reveal">
-        <div class="container">
-          <h2 class="section-title">Freelance Services</h2>
-          <div class="services-grid">
-            <article class="service-card glass-card"><h3><i class="fa-solid fa-code"></i> Full-Stack Development</h3><p>Complete web app development with clean architecture and scalable code.</p></article>
-            <article class="service-card glass-card"><h3><i class="fa-solid fa-shield-halved"></i> API Engineering</h3><p>Secure ASP.NET Core Web API development with JWT and best practices.</p></article>
-            <article class="service-card glass-card"><h3><i class="fa-solid fa-laptop-code"></i> Angular Frontends</h3><p>Modern, responsive Angular interfaces with smooth user interactions.</p></article>
-            <article class="service-card glass-card"><h3><i class="fa-solid fa-gears"></i> Cloud &amp; DevOps</h3><p>Azure hosting, CI/CD setup, monitoring, and long-term performance optimization.</p></article>
-          </div>
+      <section class="section container" id="services" data-reveal>
+        <h3 class="section-title">Services</h3>
+        <div class="grid three-col">
+          <article class="glass-card"><h4>Full Stack Web Development</h4></article>
+          <article class="glass-card"><h4>ASP.NET Core API Development</h4></article>
+          <article class="glass-card"><h4>Angular Dashboard Development</h4></article>
+          <article class="glass-card"><h4>Azure Deployment & CI/CD Setup</h4></article>
+          <article class="glass-card"><h4>Bug Fixing & Maintenance</h4></article>
+          <article class="glass-card"><h4>Performance Optimization</h4></article>
         </div>
       </section>
 
-      <section id="contact" class="section reveal">
-        <div class="container">
-          <h2 class="section-title">Contact</h2>
-          <p class="section-text">Let’s build your next product with performance, quality, and speed.</p>
-          <div class="contact-grid">
-            <a class="contact-card glass-card" href="mailto:amankumardz0@gmail.com"><i class="fa-solid fa-envelope"></i><span>amankumardz0@gmail.com</span></a>
-            <a class="contact-card glass-card" href="tel:9079180508"><i class="fa-solid fa-phone"></i><span>9079180508</span></a>
-            <a class="contact-card glass-card" href="https://www.linkedin.com/in/amankumardz/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i><span>LinkedIn Profile</span></a>
-            <a class="contact-card glass-card" href="https://github.com/amankumardz" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i><span>GitHub Profile</span></a>
-          </div>
+      <section class="section container" id="contact" data-reveal>
+        <h3 class="section-title">Contact Me</h3>
+        <div class="glass-card contact-card">
+          <p>📧 <a href="mailto:amankumardz0@gmail.com">amankumardz0@gmail.com</a></p>
+          <p>📞 <a href="tel:+919079180508">9079180508</a></p>
+          <p>💼 <a href="https://www.linkedin.com/in/amankumardz/" target="_blank" rel="noopener">LinkedIn Profile</a></p>
+          <p>💻 <a href="https://github.com/amankumardz" target="_blank" rel="noopener">GitHub Profile</a></p>
         </div>
       </section>
     </main>
 
-    <button class="scroll-top" id="scroll-top" aria-label="Scroll to top"><i class="fa-solid fa-arrow-up"></i></button>
-
-    <footer class="footer"><div class="container"><p>&copy; <span id="year"></span> Aman Kumar. All rights reserved.</p></div></footer>
+    <button id="scrollTopBtn" class="scroll-top" aria-label="Scroll to top">↑</button>
 
     <script src="script.js"></script>
   </body>
