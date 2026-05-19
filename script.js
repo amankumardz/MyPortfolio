@@ -10,7 +10,10 @@ menuToggle?.addEventListener('click', () => {
 });
 
 navAnchors.forEach((link) => {
-  link.addEventListener('click', () => navLinks.classList.remove('open'));
+  link.addEventListener('click', () => {
+    navLinks.classList.remove('open');
+    menuToggle?.setAttribute('aria-expanded', 'false');
+  });
 });
 
 const revealObserver = new IntersectionObserver(
@@ -24,6 +27,8 @@ const revealObserver = new IntersectionObserver(
 
 document.querySelectorAll('[data-reveal], .glass-card').forEach((el) => {
   el.classList.add('reveal');
+  const delay = el.getAttribute('data-delay');
+  if (delay) el.style.transitionDelay = `${delay}ms`;
   revealObserver.observe(el);
 });
 
